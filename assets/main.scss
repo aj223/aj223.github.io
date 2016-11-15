@@ -21,8 +21,7 @@ h2 {
 body {
     background-color: $lGrey;
     font: normal 12px 'Verdana', sans-serif;
-
-
+    clear: both;
 }
 
 a {
@@ -37,3 +36,16 @@ ul {
     list-style: none;
 }
 
+#testBox {
+    background-color: $bubble;
+    border: 2px $auro;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    clear: both;
+    margin-right: 20px;
+}
