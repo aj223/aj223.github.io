@@ -9,6 +9,7 @@ $misty: #FFE8E1;
 $lGrey: #D4DCCD;
 
 
+
 h2 {
     color: $auro;
     font-style: italic;
@@ -29,10 +30,8 @@ body {
     padding: 5px;
 }
 
-.box {
-    background-color: $nade;
-    border: 1px solid #445588;
-    width: 400px;
-    height: width/2;
-    text-align: center;
+a {
+    color: $nade;
+    text-decoration: none;
 }
+
