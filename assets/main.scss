@@ -8,7 +8,10 @@ $bubble: #FFC4D1;
 $misty: #FFE8E1;
 $lGrey: #D4DCCD;
 
+h1 {
+    color: $bubble;
 
+}
 
 h2 {
     color: $auro;
@@ -22,16 +25,12 @@ body {
 
 }
 
-.wrapper {
-    background-color: $misty;
-    max-width: 900px;
-    position: center;
-    margin: 5px;
-    padding: 5px;
-}
-
 a {
     color: $nade;
     text-decoration: none;
+}
+
+ul {
+    list-style: none;
 }
 
