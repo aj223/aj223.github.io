@@ -6,7 +6,7 @@ $auro: #6B717E;
 $nade: #EFAAC4;
 $bubble: #FFC4D1;
 $misty: #FFE8E1;
-$lGrey: #D4DCCD;
+$lGrey: #fcf7f8;
 
 h1 {
     color: $bubble;
@@ -28,6 +28,9 @@ body {
 a {
     color: $nade;
     text-decoration: none;
+}
+a:hover {
+    background-color: darken($nade, 20%);
 }
 
 ul {
