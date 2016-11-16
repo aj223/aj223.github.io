@@ -3,13 +3,14 @@
 ---
 
 $auro: #6B717E;
-$nade: #EFAAC4;
-$bubble: #FFC4D1;
-$misty: #FFE8E1;
-$lGrey: #fcf7f8;
+$title1: #666a86;
+$navBtn: #92b6b1;
+$lGrey: #f9fcff;
 
 h1 {
-    color: $bubble;
+    color: $title1;
+    clear: left;
+    margin-left: 40px;
 
 }
 
@@ -22,14 +23,13 @@ body {
     background-color: $lGrey;
     font: normal 12px 'Verdana', sans-serif;
     clear: both;
+    margin-left: 20px;
 }
 
 a {
-    color: $nade;
+    color: $auro;
     text-decoration: none;
-}
-a:hover {
-    background-color: darken($nade, 20%);
+
 }
 
 ul {
@@ -37,15 +37,50 @@ ul {
 }
 
 #testBox {
-    background-color: $bubble;
+    background-image: url(header1jk.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+
+
     border: 2px $auro;
     margin: 5px;
     padding: 5px;
-    text-align: center;
+    max-width: 1000px;
+    width: 100%;
+    height: 60%;
+
+    h1 {
+        display:none;
+    }
 }
 
 nav {
     float: left;
-    clear: both;
+    clear: left;
     margin-right: 20px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    overflow: hidden;
+
+
+
+    ul li{
+        font: bold 14px 'Verdana', sans-serif;
+        border: none;
+        margin: 10px;
+        padding: 20px;
+        background-color: $navBtn;
+        display: inline;
+        overflow: hidden;
+
+    }
+
+}
+
+.rss-subscribe {
+    margin-left: 40px;
+    color: $title1;
+    a {
+        color: $navBtn;
+    }
 }
