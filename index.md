@@ -5,3 +5,9 @@
 layout: default
 ---
 
+
+# Start
+first page here.
+
+
+<img id = "leaves" src="/assets/leaves.png">

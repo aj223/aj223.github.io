@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blogLayout
 date: 2016-11-15 16:20:57 +0000
 ---
 
@@ -7,21 +7,9 @@ date: 2016-11-15 16:20:57 +0000
 
 <div class="home">
 
-    <div id = "testBox">
-        <h1> Andrea Johansson </h1>
+    {% include header_nav.html %}
 
-    </div>
 
-    <nav>
-
-        <ul>
-            <li> <a href = "./index.html"> Start </a> </li>
-            <li> <a href = "./about_me.html"> About me </a> </li>
-            <li> <a href = "./blog.html"> Blog </a> </li>
-        </ul>
-    </nav>
-
-    <h1 class="page-heading">Posts</h1>
 
     {{ content }}
 

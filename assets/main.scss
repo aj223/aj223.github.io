@@ -7,23 +7,35 @@ $title1: #666a86;
 $navBtn: #92b6b1;
 $lGrey: #f9fcff;
 
+
+.home {
+    background-color: white;
+    max-width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+
+}
+
 h1 {
     color: $title1;
     clear: left;
-    margin-left: 40px;
 
 }
 
 h2 {
     color: $auro;
-    font-style: italic;
+    clear: both;
+}
+p {
+    clear: left;
 }
 
+
+
 body {
-    background-color: $lGrey;
-    font: normal 12px 'Verdana', sans-serif;
+    background-color: ghostWhite;
+    font: normal 12px 'Helvetica', sans-serif;
     clear: both;
-    margin-left: 20px;
 }
 
 a {
@@ -35,52 +47,55 @@ a {
 ul {
     list-style: none;
 }
+header {height:200px; width: 100%;}
 
-#testBox {
-    background-image: url(header1jk.png);
+#headerLink {
+
+    background-image: url(header2jk.png);
     background-size:cover;
-    background-repeat:no-repeat;
-
-
-    border: 2px $auro;
-    margin: 5px;
-    padding: 5px;
-    max-width: 1000px;
-    width: 100%;
-    height: 60%;
-
+    display:block;
+    white-space: nowrap;
     h1 {
-        display:none;
+        display: none;
     }
 }
 
 nav {
     float: left;
-    clear: left;
-    margin-right: 20px;
+    clear: both;
+    margin-right: 0px;
     padding-right: 10px;
     padding-bottom: 25px;
+    margin-bottom: 50px;
     overflow: hidden;
 
-
-
     ul li{
-        font: bold 14px 'Verdana', sans-serif;
+        font: bold 14px 'Helvetica', sans-serif;
         border: none;
-        margin: 10px;
+        margin-right: 10px;
         padding: 20px;
+        padding-bottom: 10px;
         background-color: $navBtn;
         display: inline;
         overflow: hidden;
-
-    }
-
+        clear: none;
+}
 }
 
+
 .rss-subscribe {
-    margin-left: 40px;
+
     color: $title1;
     a {
         color: $navBtn;
     }
+    clear: both;
+}
+
+.post {
+    clear: left;
+}
+
+#leaves {
+    float: none;
 }

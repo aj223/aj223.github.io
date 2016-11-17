@@ -7,35 +7,11 @@ date: 2016-11-15 16:20:57 +0000
 
 <div class="home">
 
-    <div id = "testBox">
-        <h1> Andrea Johansson </h1>
+{% include header_nav.html %}
 
-        </div>
-
-<nav>
-
-        <ul>
-            <li> <a href = "./index.html"> Start </a> </li>
-            <li> <a href = "./about_me.html"> About me </a> </li>
-            <li> <a href = "./blog.html"> Blog </a> </li>
-            </ul>
-</nav>
-
-    <h1 class="page-heading">Posts</h1>
 
     {{ content }}
 
-    <ul class="post-list">
-        {% for post in site.posts %}
-        <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-            <h2>
-                <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-            </h2>
-        </li>
-        {% endfor %}
-    </ul>
 
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</nav></p>
 
