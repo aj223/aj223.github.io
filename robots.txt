@@ -1,0 +1,6 @@
+
+
+User-agent: *
+Sitemap: //add url up
+
+TODO: add url here
