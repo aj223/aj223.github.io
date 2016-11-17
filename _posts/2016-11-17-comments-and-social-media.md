@@ -5,6 +5,7 @@ date:   2016-11-17 12:19:57 +0000
 author: Andrea Johansson
 type: article
 description: In this blog post I talk about how I have enabled for comments on blog posts and how Open Graph is used.
+image: https://aj223.github.io/assets/postImg.png
 ---
 
 TODO: write content here.

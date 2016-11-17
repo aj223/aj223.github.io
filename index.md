@@ -2,6 +2,7 @@
 author: Andrea Johansson
 layout: default
 title: Start
+image: https://aj223.github.io/assets/computer.png
 ---
 
 

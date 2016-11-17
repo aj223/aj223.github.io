@@ -2,6 +2,7 @@
 layout: default
 title: About me
 author: Andrea Johansson
+image: https://aj223.github.io/assets/postImg.png
 ---
 
 # About me
