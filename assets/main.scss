@@ -69,7 +69,7 @@ a {
         margin-bottom: 50px;
         overflow: hidden;
 
-        ul li{
+        ul li {
             font: bold 14px 'Helvetica', sans-serif;
             border: none;
             margin-right: 5px;
@@ -82,12 +82,12 @@ a {
 
             a {
                 color: white;
-        }
+            }
             a:hover {
                 color: darken($navBtn, 30%);
             }
+        }
     }
-
 
 .rss-subscribe {
 
@@ -98,9 +98,7 @@ a {
         clear: both;
     }
 
-
-
-    #leaves {
-        float: none;
+    img {
+        margin: 10px;
     }
-}
+
