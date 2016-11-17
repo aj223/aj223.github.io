@@ -45,9 +45,16 @@ a {
         list-style: none;
     }
 
-    header {height:200px;
+    header {
+        height: 200px;
         width: 100%;
-    }
+
+        }
+
+.post-header {
+    height: 60px;
+    width: 100%;
+}
 
     #headerLink {
 
