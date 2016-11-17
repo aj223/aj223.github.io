@@ -5,6 +5,7 @@ date:   2016-11-14 16:19:57 +0000
 author: andreajohansson
 type: article
 description: In this blog post I discuss the advantages and disadvantages of using SCSS over CSS and describe which SCSS techniques were used in creating this website.
+
 ---
 Previously, I have only made websites using HTML and CSS. 
 I tend to use an online colour scheme generator such as [Coolors](https://coolors.co/) in order to choose a few colours that complement each other nicely to use on the website.
