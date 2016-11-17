@@ -27,6 +27,7 @@ h2 {
 }
 p {
     clear: left;
+    font-size: 14px;
 }
 
 body {
@@ -36,63 +37,70 @@ body {
 }
 
 a {
-    color: black;
+    color: $navBtn;
     text-decoration: none;
-
 }
 
-ul {
-    list-style: none;
-}
-header {height:200px; width: 100%;}
-
-#headerLink {
-
-    background-image: url(header2jk.png);
-    background-size:cover;
-    display:block;
-    white-space: nowrap;
-    h1 {
-        display: none;
+    ul {
+        list-style: none;
     }
-}
 
-nav {
-    float: left;
-    clear: both;
-    margin-right: 0px;
-    padding-right: 10px;
-    padding-bottom: 25px;
-    margin-bottom: 50px;
-    overflow: hidden;
+    header {height:200px;
+        width: 100%;
+    }
 
-    ul li{
-        font: bold 14px 'Helvetica', sans-serif;
-        border: none;
-        margin-right: 5px;
-        padding: 20px;
-        padding-bottom: 10px;
-        background-color: $navBtn;
-        display: inline;
+    #headerLink {
+
+        background-image: url(header2jk.png);
+        background-size:cover;
+        display:block;
+        white-space: nowrap;
+        h1 {
+            display: none;
+        }
+    }
+
+    nav {
+        float: left;
+        clear: both;
+        margin-right: 0px;
+        padding-right: 10px;
+        padding-bottom: 25px;
+        margin-bottom: 50px;
         overflow: hidden;
-        clear: none;
-}
-}
+
+        ul li{
+            font: bold 14px 'Helvetica', sans-serif;
+            border: none;
+            margin-right: 5px;
+            padding: 20px;
+            padding-bottom: 10px;
+            background-color: $navBtn;
+            display: inline;
+            overflow: hidden;
+            clear: none;
+
+            a {
+                color: white;
+        }
+            a:hover {
+                color: darken($navBtn, 30%);
+            }
+    }
 
 
 .rss-subscribe {
 
-    color: $title1;
-    a {
-        color: $navBtn;
+        color: $title1;
+        a {
+            color: $navBtn;
+        }
+        clear: both;
     }
-    clear: both;
-}
 
-.post {
-    clear: left;
-}
 
-#leaves {
-    float: none;
+
+    #leaves {
+        float: none;
+    }
 }
