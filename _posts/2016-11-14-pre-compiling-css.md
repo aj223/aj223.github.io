@@ -2,7 +2,7 @@
 layout: post
 title:  "Pre-compiling CSS"
 date:   2016-11-14 16:19:57 +0000
-author: andreajohansson
+author: Andrea Johansson
 type: article
 description: In this blog post I discuss the advantages and disadvantages of using SCSS over CSS and describe which SCSS techniques were used in creating this website.
 

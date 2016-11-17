@@ -1,6 +1,7 @@
 ---
 layout: default
-title: About-me
+title: About me
+author: Andrea Johansson
 ---
 
 # About me
