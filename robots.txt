@@ -1,6 +1,6 @@
 
 
 User-agent: *
-Sitemap: //add url up
+Sitemap: https://aj223.github.io
 
-TODO: add url here
+
