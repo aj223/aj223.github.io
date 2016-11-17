@@ -1,9 +1,13 @@
 ---
 layout: blogLayout
 date: 2016-11-15 16:20:57 +0000
+source: this file contains content from Jekyll's minima theme that I have modified. Taken from: https://github.com/jekyll/minima/blob/master/_layouts/default.html
 ---
-
+<head>
 <link rel="stylesheet" href="/assets/main.css">
+{% include head.html %}
+
+    </head>
 
 <div class="home">
 
@@ -11,6 +15,8 @@ date: 2016-11-15 16:20:57 +0000
 
 
     {{ content }}
+
+
 
     <ul class="post-list">
         {% for post in site.posts %}

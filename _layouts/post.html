@@ -2,13 +2,20 @@
 layout: post
 date: 2016-11-15 16:23:57 +0000
 comments: true
+source: this file contains content from Jekyll's default theme minima that I have modified. Taken from: https://github.com/jekyll/minima/blob/master/_layouts/post.html
 ---
-
+<head>
 <link rel="stylesheet" href="/assets/main.css">
+
+    {% include head.html %}
+
+    </head>
 
 <div class="home">
 
-{% include header_nav.html %}
+{% include header_nav_posts.html %}
+
+
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
