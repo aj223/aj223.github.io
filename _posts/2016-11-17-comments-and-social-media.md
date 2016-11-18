@@ -25,7 +25,7 @@ and put this in the post so that whoever sees the post gets a sense of what the 
 another way of catching the attention of the reader. 
 
 An easy way of achieving this when developing a website is to use Open Graph meta tags. I have chosen to create a file for the content 
-I want in the head part of each HTML page in my _includes folder. That way, it can easily be imported to all pages, and if changes are made,
+I want in the head part of each HTML page in my includes folder. That way, it can easily be imported to all pages, and if changes are made,
 they will be applied everywhere. The Open Graph tags, such as _og:title_ and _og:description_ are set to have the content of the title and description of 
 the specific page they are on. The title and description are defined in the Front Matter of every page, along with other kinds of information about the page.
 

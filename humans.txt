@@ -3,9 +3,8 @@
 /* AUTHOR */
 
 
-Your title: Andrea Johansson
+Title: Andrea Johansson
 
-Site: aj223dx@student.lnu.se
 Location: Hultsfred, Sweden
 
 Site: https://aj223.github.io

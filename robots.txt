@@ -1,6 +1,7 @@
 
 
 User-agent: *
-Sitemap: https://aj223.github.io
+Disallow:
+Sitemap: https://aj223.github.io/sitemap.xml
 
 
