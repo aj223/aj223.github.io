@@ -8,4 +8,6 @@ description: In this blog post I explore robots.txt and humans.txt
 image: https://aj223.github.io/assets/postImg.png
 ---
 
-TODO: write content here.
+What is robots.txt and how have you configure it for your site?
+
+What is humans.txt and how have you configure it for your site?
